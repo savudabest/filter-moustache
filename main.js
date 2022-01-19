@@ -2,7 +2,7 @@ mX = 0;
 mY = 0;
 
 function preload(){
-stache = loadImage("https://i.postimg.cc/yN9LQbKf/moustache.png")
+stache = loadImage("https://i.postimg.cc/3x3QzSGq/m.png")
 }
 
 function setup(){
@@ -24,7 +24,7 @@ console.log('model loaded');
 
 function draw(){
 image(video,0,0,300,230);
-image(stache,mX,mY,30,23);
+image(stache,mX,mY,40,30);
 }
 
 function take_snapshot(){
@@ -36,8 +36,8 @@ function gotPoses(results){
 
     if(results.length > 0){
         console.log(results);
-        mX = results[0].pose.nose.x -15;
-        mY = results[0].pose.nose.y - 35;
+        mX = results[0].pose.nose.x -20;
+        mY = results[0].pose.nose.y - 29;
         console.log("nose x = "+mX);
         console.log("nose y = "+mY);
         console.log(results);
