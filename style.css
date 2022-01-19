@@ -1,0 +1,40 @@
+h3{
+    font-size:60px !important;
+   }
+   
+   button{
+       font-size:40px !important;
+   }
+   
+   .btn-success:hover{
+   background-color:rgb(40, 197, 197);
+   font-size: 50px !important;
+   }
+   
+   .btn-info:hover{
+    font-size: 70px !important;
+    background-color:rgb(28, 143, 53);
+   }
+   
+   canvas{
+       animation-name:example;
+       animation-duration: 4s;
+       animation-iteration-count: infinite;
+   }
+   
+   @keyframes example{
+       from{
+           box-shadow:1px 1px 38px rgb(118, 143, 226);
+       }
+       to{
+           box-shadow:1px 1px 38px rgb(233, 211, 17);
+       }
+       to{
+        box-shadow:1px 1px 38px rgb(118, 143, 226);
+       }
+   }
+
+p12{
+ font-size: 50px;
+ color:whitesmoke;
+}
